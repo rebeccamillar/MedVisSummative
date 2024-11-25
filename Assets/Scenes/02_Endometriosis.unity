@@ -890,7 +890,6 @@ GameObject:
   m_Component:
   - component: {fileID: 424895494}
   - component: {fileID: 424895493}
-  - component: {fileID: 424895492}
   - component: {fileID: 424895491}
   m_Layer: 0
   m_Name: EndometriomasCamera
@@ -943,14 +942,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &424895492
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424895490}
-  m_Enabled: 0
 --- !u!20 &424895493
 Camera:
   m_ObjectHideFlags: 0
@@ -2648,7 +2639,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1010954730}
   - component: {fileID: 1010954733}
-  - component: {fileID: 1010954732}
   - component: {fileID: 1010954731}
   m_Layer: 0
   m_Name: LesionsCamera
@@ -2716,14 +2706,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1010954732
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010954729}
-  m_Enabled: 0
 --- !u!20 &1010954733
 Camera:
   m_ObjectHideFlags: 0
@@ -5101,7 +5083,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1920271939}
   - component: {fileID: 1920271942}
-  - component: {fileID: 1920271941}
   - component: {fileID: 1920271940}
   m_Layer: 0
   m_Name: AdhesionsCamera
@@ -5169,14 +5150,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1920271941
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920271938}
-  m_Enabled: 0
 --- !u!20 &1920271942
 Camera:
   m_ObjectHideFlags: 0
