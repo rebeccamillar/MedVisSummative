@@ -48,6 +48,7 @@ public class CameraUterusDragScript : MonoBehaviour
 
     private bool canBeInteracted;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -133,5 +134,7 @@ public class CameraUterusDragScript : MonoBehaviour
     public void SetInteraction(bool m_interact){
         canBeInteracted = m_interact;
     }
+
+    
 }
 

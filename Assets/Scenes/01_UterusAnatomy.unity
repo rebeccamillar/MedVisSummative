@@ -6195,8 +6195,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1969335065}
-        m_TargetAssemblyTypeName: ResetCamera, Assembly-CSharp
+      - m_Target: {fileID: 1969335064}
+        m_TargetAssemblyTypeName: CameraUterusDragScript, Assembly-CSharp
         m_MethodName: ResetOnClick
         m_Mode: 1
         m_Arguments:
