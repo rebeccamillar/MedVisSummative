@@ -46,6 +46,8 @@ public class CameraUterusDragScript : MonoBehaviour
 
     private Vector3 previousMousePos;
 
+    private bool canBeInteracted;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,48 +67,50 @@ public class CameraUterusDragScript : MonoBehaviour
 
     // Update is called once per frame
     void LateUpdate()
-    {
+    {   
         /***********************************************************************************/
         //Manage Orbit aroudn target obj
         /***********************************************************************************/
-        if (Input.GetMouseButton(0))
-        {
-            //Simply use Input.mousePositionDelta in Unity 6
-            velocityX += orbitSpeed * GetMousePositionDelta(Input.mousePosition).x * 0.02f;
-            velocityY += orbitSpeed * GetMousePositionDelta(Input.mousePosition).y * 0.02f;
+        if (canBeInteracted){
+            if (Input.GetMouseButton(0))
+            {
+                //Simply use Input.mousePositionDelta in Unity 6
+                velocityX += orbitSpeed * GetMousePositionDelta(Input.mousePosition).x * 0.02f;
+                velocityY += orbitSpeed * GetMousePositionDelta(Input.mousePosition).y * 0.02f;
+            }
+            rotationYAxis += velocityX;
+            rotationXAxis -= velocityY;
+            
+            //Limit extend of rotation around X axis
+            rotationXAxis = ClampAngle(rotationXAxis, yMinLimit, yMaxLimit);
+    
+            Quaternion toRotation = Quaternion.Euler(rotationXAxis, rotationYAxis, 0);
+            Quaternion rotation = toRotation;
+
+            //Readjust Position
+            Vector3 negDistance = new Vector3(0.0f, 0.0f, -distance);
+            Vector3 position = rotation * negDistance + target.position;
+            
+            //Assign Pos and Rot to Camera Transform
+            transform.rotation = rotation;
+            transform.position = position;
+
+            //Interpolation between values ==> Smoother motion
+            velocityX = Mathf.Lerp(velocityX, 0, Time.deltaTime * smoothTime);
+            velocityY = Mathf.Lerp(velocityY, 0, Time.deltaTime * smoothTime);
+            /***********************************************************************************/
+
+            
+            /***********************************************************************************/
+            //Manage Zoom using field of view
+            /***********************************************************************************/
+            float fieldOfView = transform.GetComponent<Camera>().fieldOfView;
+            transform.GetComponent<Camera>().fieldOfView = Mathf.Clamp(fieldOfView + Input.mouseScrollDelta.y * zoomSpeed , fovMin, fovMax);
+            /***********************************************************************************/
+
+            //Store Value of Mouse position as previous
+            previousMousePos = Input.mousePosition;
         }
-        rotationYAxis += velocityX;
-        rotationXAxis -= velocityY;
-        
-        //Limit extend of rotation around X axis
-        rotationXAxis = ClampAngle(rotationXAxis, yMinLimit, yMaxLimit);
-   
-        Quaternion toRotation = Quaternion.Euler(rotationXAxis, rotationYAxis, 0);
-        Quaternion rotation = toRotation;
-
-        //Readjust Position
-        Vector3 negDistance = new Vector3(0.0f, 0.0f, -distance);
-        Vector3 position = rotation * negDistance + target.position;
-        
-        //Assign Pos and Rot to Camera Transform
-        transform.rotation = rotation;
-        transform.position = position;
-
-        //Interpolation between values ==> Smoother motion
-        velocityX = Mathf.Lerp(velocityX, 0, Time.deltaTime * smoothTime);
-        velocityY = Mathf.Lerp(velocityY, 0, Time.deltaTime * smoothTime);
-        /***********************************************************************************/
-
-        
-        /***********************************************************************************/
-        //Manage Zoom using field of view
-        /***********************************************************************************/
-        float fieldOfView = transform.GetComponent<Camera>().fieldOfView;
-        transform.GetComponent<Camera>().fieldOfView = Mathf.Clamp(fieldOfView + Input.mouseScrollDelta.y * zoomSpeed , fovMin, fovMax);
-        /***********************************************************************************/
-
-        //Store Value of Mouse position as previous
-        previousMousePos = Input.mousePosition;
     }
 
     //Calculate Mouse Position Delta (Between Frames)
@@ -125,5 +129,9 @@ public class CameraUterusDragScript : MonoBehaviour
 			angle -= 360F;
 		return Mathf.Clamp(angle, min, max);
 	}
+
+    public void SetInteraction(bool m_interact){
+        canBeInteracted = m_interact;
+    }
 }
 
