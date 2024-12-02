@@ -48,6 +48,8 @@ public class CameraUterusDragScript : MonoBehaviour
 
     private bool canBeInteracted;
 
+    private Vector3 initRotation;
+
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +57,7 @@ public class CameraUterusDragScript : MonoBehaviour
 		Vector3 angles = transform.eulerAngles;
 		rotationYAxis = angles.y;
 		rotationXAxis = angles.x;
+        initRotation = angles;
 
         //Orientate the Camera so it look at the target obj
         transform.LookAt(target,Vector3.up);
@@ -135,6 +138,10 @@ public class CameraUterusDragScript : MonoBehaviour
         canBeInteracted = m_interact;
     }
 
-    
+    public void ResetOnClick()
+    {
+        rotationYAxis = initRotation.y;
+		rotationXAxis = initRotation.x;
+    }
 }
 
