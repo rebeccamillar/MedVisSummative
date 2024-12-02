@@ -1854,7 +1854,7 @@ GameObject:
   - component: {fileID: 188160183}
   - component: {fileID: 188160182}
   m_Layer: 5
-  m_Name: tion_Template
+  m_Name: Question_Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3836,9 +3836,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As of 2023, in the UK it takes on average 8 years and 10 months for a
-    person to receive a diagnosis from their first visit to their GP, to reaching
-    an accurate diagnosis.  '
+  m_text: Answer panel ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
   m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
