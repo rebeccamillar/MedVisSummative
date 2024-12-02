@@ -352,6 +352,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1969335064}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &36187615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7280,7 +7292,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1969335062}
   - component: {fileID: 1969335061}
-  - component: {fileID: 1969335065}
   - component: {fileID: 1969335060}
   - component: {fileID: 1969335063}
   - component: {fileID: 1969335064}
@@ -7429,20 +7440,6 @@ MonoBehaviour:
   fovMin: 30
   fovMax: 90
   zoomSpeed: 0.5
---- !u!114 &1969335065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969335059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09ac41cbada1e8147888f47c4ddbc4c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initPosition: {x: 0, y: 0, z: 0}
-  initRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &2006009987
 GameObject:
   m_ObjectHideFlags: 0

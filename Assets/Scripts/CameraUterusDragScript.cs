@@ -9,7 +9,6 @@ using UnityEngine;
  * Modified by Matt on 29th Oct 2024
  * */
  
-[AddComponentMenu("Camera-Control/Mouse Camera Drag Orbit with zoom")]
 
 public class CameraUterusDragScript : MonoBehaviour
 {
@@ -32,8 +31,7 @@ public class CameraUterusDragScript : MonoBehaviour
 	[SerializeField]
     private float yMaxLimit = 80f;
 
-    [SerializeField]
-    private float smoothTime = 2.0f;
+    public float smoothTime = 2.0f;
 
     [SerializeField]
     private float fovMin = 30.0f;
@@ -142,6 +140,14 @@ public class CameraUterusDragScript : MonoBehaviour
     {
         rotationYAxis = initRotation.y;
 		rotationXAxis = initRotation.x;
+        StartCoroutine("TurnOffRotation");
+    }
+
+    IEnumerator TurnOffRotation()
+    {
+        // suspend execution for 5 seconds
+        yield return new WaitForSeconds(.1f);
+        canBeInteracted = false;
     }
 }
 
