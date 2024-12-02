@@ -15,10 +15,10 @@ public class ManageQuestion : MonoBehaviour
     private GameObject correctResponse;
 
     [SerializeField]
-    private GameObject NegativeFB;
+    private GameObject NegativeFeedback;
 
     [SerializeField]
-    private GameObject PositiveFB;
+    private GameObject PositiveFeedback;
 
     [SerializeField]
     private GameObject questionObj;
@@ -43,13 +43,13 @@ public class ManageQuestion : MonoBehaviour
 
         if (userResponse == correctResponse)
         {
-            //Trigger positive feedback (FB)
-            PositiveFB.SetActive(true);
+            //Trigger positive feedback 
+            PositiveFeedback.SetActive(true);
         }
         else
         {
-            //Trigger negative feedback (FB)
-            NegativeFB.SetActive(true);
+            //Trigger negative feedback
+            NegativeFeedback.SetActive(true);
         }
 
         for(int i = 0; i < questionObj.transform.childCount; i++)
