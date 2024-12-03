@@ -4,26 +4,17 @@ using UnityEngine;
 
 public class ManageQuiz : MonoBehaviour
 {
+
+    public List<GameObject> questionList;
+    public int maxQuestionIndex = 5;
+    public int myQuestionIndex = 0;
     [SerializeField]
-
-    private List<GameObject> questionList;
-
-    [SerializeField]
-
-    private int questionsCollectionSize = 3;
-
-    private int index = 0;
-
-    [SerializeField]
-    private GameObject finalPanel;
-
-    [SerializeField]
-    private GameObject questionPanel;
+    private GameObject scorePanel;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        OnClickNext();
     }
 
     // Update is called once per frame
@@ -33,25 +24,26 @@ public class ManageQuiz : MonoBehaviour
     }
 
     public void OnClickNext()
-    {
-        for(int i = 0; i < questionPanel.transform.childCount; i++)
+    {  
+        if(myQuestionIndex < maxQuestionIndex)
         {
-            questionPanel.transform.GetChild(i).gameObject.SetActive(false);
+        //retrieve random question from list 
+        int index = Random.Range(0,questionList.Count);
+        //set question to visible (set GO as Active)
+        questionList[index].SetActive(true);
+        //Remove object (question) from List
+        questionList.RemoveAt(index);
+        //increase myQuestion Index value
+        myQuestionIndexindex +=1;
         }
-        
-        if(index < questionsCollectionSize)
-        {
-        //pick up random question from list and set GO as Active
-        int listID = Random.Range(0,questionList.Count);
-        questionList[listID].SetActive(true);
-        //Remove object from List
-        questionList.RemoveAt(listID);
-        index +=1;
-        }
+
         else
         {
-            finalPanel.SetActive(true);
+            //Show score panel
+            scorePanel.SetActive(true);
+            Debug.Log("End")
         }
 
     }
+    //*for(int i = 0; i < questionList.transform.childCount; i++){questionList.transform.GetChild(i).gameObject.SetActive(false);}//*
 }

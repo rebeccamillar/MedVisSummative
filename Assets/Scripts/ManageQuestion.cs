@@ -9,19 +9,22 @@ public class ManageQuestion : MonoBehaviour
 {
     [SerializeField]
     private ToggleGroup myToggleGroup;
+
+    [SerializeField]
     private GameObject userResponse;
 
     [SerializeField]
     private GameObject correctResponse;
 
     [SerializeField]
-    private GameObject NegativeFeedback;
+    private GameObject positiveFeedback;
 
     [SerializeField]
-    private GameObject PositiveFeedback;
+    private GameObject negativeFeedback;
 
     [SerializeField]
     private GameObject questionObj;
+
 
     // Start is called before the first frame update
     void Start()
@@ -41,15 +44,21 @@ public class ManageQuestion : MonoBehaviour
         Toggle selectedToggle = myToggleGroup.ActiveToggles().FirstOrDefault();
         userResponse = selectedToggle.gameObject;
 
+        //Set all toggles as non-interactable 
+        for (int i = 0; i < myToggleGroup.transform.childCount; i++)
+        {
+            myToggleGroup.transform.GetChild(i).GetComponent<Toggle>().interactable = false;
+        }
+
         if (userResponse == correctResponse)
         {
-            //Trigger positive feedback 
-            PositiveFeedback.SetActive(true);
+            //Trigger POSITIVE feedback 
+            positiveFeedback.SetActive(true);
         }
         else
         {
-            //Trigger negative feedback
-            NegativeFeedback.SetActive(true);
+            //Trigger NEGATIVE feedback
+            negativeFeedback.SetActive(true);
         }
 
         for(int i = 0; i < questionObj.transform.childCount; i++)
