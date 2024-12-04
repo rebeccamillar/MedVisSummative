@@ -54,6 +54,8 @@ public class ManageQuestion : MonoBehaviour
         {
             //Trigger POSITIVE feedback 
             positiveFeedback.SetActive(true);
+
+            transform.parent.GetComponent<ManageQuiz>().score += 1;
         }
         else
         {

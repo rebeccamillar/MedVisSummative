@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ManageQuiz : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class ManageQuiz : MonoBehaviour
     public int myQuestionIndex = 0;
     [SerializeField]
     private GameObject scorePanel;
+    [SerializeField]
+    private GameObject scoreIndicator;
+
+    public int score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +22,6 @@ public class ManageQuiz : MonoBehaviour
         OnClickNext();
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
 
     public void OnClickNext()
     {  
@@ -36,15 +36,17 @@ public class ManageQuiz : MonoBehaviour
             //increase myQuestion Index value
             myQuestionIndex +=1;
         }
-        else
-        {
-            //Show score panel
-            scorePanel.SetActive(true);
-            Debug.Log("End");
-       }
 
+            else
+            {
+                //Show score panel
+                scorePanel.SetActive(true);
 
-    //*for(int i = 0; i < questionList.transform.childCount; i++){questionList.transform.GetChild(i).gameObject.SetActive(false);}//*
+                scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
+
+                Debug.Log("End");
+            }
+
     }
 }
 
