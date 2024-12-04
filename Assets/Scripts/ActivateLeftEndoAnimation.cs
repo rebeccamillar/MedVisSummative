@@ -22,6 +22,9 @@ public class ActivateLeftEndoAnimation : MonoBehaviour
 
     public void StartAnimation()
     {
+        //animator.Play("ActivateAnimation", -1, 0.0f);
         animator.SetBool("ActivateAnimation", true);
     }
+
+
 }
