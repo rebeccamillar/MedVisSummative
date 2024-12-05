@@ -6,6 +6,8 @@ public class ActivateRightEndoAnimation : MonoBehaviour
 {
     public GameObject rightEndoAnimated; 
 
+    //public string triggerName = "PlayAnimation";
+
     Animator animator;
 
     // Start is called before the first frame update
@@ -23,5 +25,6 @@ public class ActivateRightEndoAnimation : MonoBehaviour
     public void StartAnimation()
     {
         animator.SetBool("ActivateAnimation", true);
+        //animator.SetTrigger(triggerName);
     }
 }
