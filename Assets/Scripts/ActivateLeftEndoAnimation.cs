@@ -6,6 +6,8 @@ public class ActivateLeftEndoAnimation : MonoBehaviour
 {
    public GameObject leftEndoAnimated; 
 
+   public string triggerName = "PlayAnimation";
+
     Animator animator;
 
     // Start is called before the first frame update
@@ -24,6 +26,7 @@ public class ActivateLeftEndoAnimation : MonoBehaviour
     {
         //animator.Play("ActivateAnimation", -1, 0.0f);
         animator.SetBool("ActivateAnimation", true);
+        //animator.SetTrigger(triggerName);
     }
 
 

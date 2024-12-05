@@ -6,6 +6,8 @@ public class ActivateAdhesionAnimation : MonoBehaviour
 {
     public GameObject AdhesionAnimated; 
 
+    //public string triggerName = "PlayAnimation2";
+
     Animator animator;
 
     // Start is called before the first frame update
@@ -23,5 +25,6 @@ public class ActivateAdhesionAnimation : MonoBehaviour
     public void StartAnimation()
     {
         animator.SetBool("ActivateAnimation", true);
+        //animator.SetTrigger(triggerName);
     }
 }
