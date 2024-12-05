@@ -2868,8 +2868,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4886,8 +4886,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Interact
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5021,8 +5021,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Next: Endometriosis'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9636,8 +9636,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Anatomy
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

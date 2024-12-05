@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 187.40092, y: 18.78201}
+  m_AnchoredPosition: {x: 187.40092, y: 21.782017}
   m_SizeDelta: {x: 1064.8331, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16144671
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -180,8 +180,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -259,8 +259,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -531,7 +531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -480.74933, y: -66.40291}
+  m_AnchoredPosition: {x: -484, y: -99}
   m_SizeDelta: {x: 114.9873, y: 97.1233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32590604
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -728,8 +728,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1393,7 +1393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 187.40086, y: 24.348}
+  m_AnchoredPosition: {x: 187.40086, y: 27.348007}
   m_SizeDelta: {x: 1064.8331, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132586944
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1417,8 +1417,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1496,8 +1496,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1817,8 +1817,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Question: What is the cause of endometriosis?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1843,8 +1843,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2250,8 +2250,8 @@ MonoBehaviour:
   m_text: 'Question: On average how long does it take for a person to be diagnosed
     with endometriosis? '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2276,8 +2276,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2520,8 +2520,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2630,7 +2630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 570, y: -88.031}
+  m_AnchoredPosition: {x: 617, y: -100.031}
   m_SizeDelta: {x: 868.6975, y: 643.5023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &212561610
@@ -2721,7 +2721,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -373.52905, w: 0}
+  m_margin: {x: 0, y: 0, z: -796.4763, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3482,8 +3482,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Question: Which of the following are symptoms of endometriosis?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3508,8 +3508,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5287,8 +5287,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5553,7 +5553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5561,8 +5561,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5716,7 +5716,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
   m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
     type: 2}
   m_fontSharedMaterials: []
@@ -5781,7 +5781,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &448450098
@@ -6122,8 +6122,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6207,7 +6207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -480.7493, y: -303.45825}
+  m_AnchoredPosition: {x: -483.99988, y: -336.05536}
   m_SizeDelta: {x: 114.9873, y: 97.1233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492456583
@@ -6948,6 +6948,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580855302}
   m_CullTransparentMesh: 1
+--- !u!1 &587865299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587865300}
+  - component: {fileID: 587865302}
+  - component: {fileID: 587865301}
+  m_Layer: 0
+  m_Name: GameTitle (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &587865300
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587865299}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0989012, y: 1.1363506, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 943046369}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 977, y: -330}
+  m_SizeDelta: {x: 974.8638, y: 256.04004}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &587865301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587865299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Time...
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
+  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 130
+  m_fontSizeBase: 130
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -118.86548, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &587865302
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587865299}
+  m_CullTransparentMesh: 1
 --- !u!1 &592677438
 GameObject:
   m_ObjectHideFlags: 0
@@ -7515,7 +7650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7523,8 +7658,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -8025,7 +8160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 136.177, y: 35}
+  m_AnchoredPosition: {x: 136.177, y: 38}
   m_SizeDelta: {x: 799.047, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725517642
@@ -8041,7 +8176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8049,8 +8184,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -8227,8 +8362,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8869,7 +9004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 143.25967, y: 36.804813}
+  m_AnchoredPosition: {x: 143.25967, y: 30.804798}
   m_SizeDelta: {x: 835.797, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &762156911
@@ -8885,7 +9020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8893,8 +9028,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -8964,7 +9099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8972,8 +9107,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -9052,8 +9187,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9334,8 +9469,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9460,7 +9595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9468,8 +9603,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -10869,7 +11004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10877,8 +11012,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -11061,8 +11196,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Question: Why does Endometriosis have a gap in research?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -11087,8 +11222,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11458,6 +11593,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1545057936}
+  - {fileID: 587865300}
   - {fileID: 212561609}
   - {fileID: 1259559604}
   - {fileID: 1275305464}
@@ -11482,7 +11618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.5943396, b: 0.68894875, a: 1}
+  m_Color: {r: 0.8490566, g: 0.5943396, b: 0.68894875, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11787,7 +11923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11795,8 +11931,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -12681,7 +12817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 72, y: 42}
+  m_AnchoredPosition: {x: 72, y: 36}
   m_SizeDelta: {x: 466.0504, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040008333
@@ -12697,7 +12833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12705,8 +12841,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -12890,8 +13026,8 @@ MonoBehaviour:
   m_text: 'Question: What percentage of those assigned female at birth in the UK
     suffer from endometriosis?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12916,8 +13052,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13968,8 +14104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -14103,8 +14239,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -14213,7 +14349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 187.40086, y: 29.80481}
+  m_AnchoredPosition: {x: 187.40086, y: 32.804817}
   m_SizeDelta: {x: 1064.8331, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126685422
@@ -14229,7 +14365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14237,8 +14373,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -14441,7 +14577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -480.7493, y: -427.25165}
+  m_AnchoredPosition: {x: -483.99988, y: -459.84875}
   m_SizeDelta: {x: 114.9873, y: 97.1233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1147212833
@@ -15621,8 +15757,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15733,8 +15869,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: -23.103}
-  m_SizeDelta: {x: 461.0686, y: 425.53}
+  m_AnchoredPosition: {x: -281, y: -366.61343}
+  m_SizeDelta: {x: 329.7664, y: 90.5729}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259559605
 MonoBehaviour:
@@ -15830,7 +15966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40392157, g: 0.10980391, b: 0.21534298, a: 0.77254903}
+  m_Color: {r: 0.5622641, g: 0.21960123, b: 0.28515407, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15891,8 +16027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -605, y: 269}
-  m_SizeDelta: {x: 411.4217, y: 76.5443}
+  m_AnchoredPosition: {x: -606, y: 172.75659}
+  m_SizeDelta: {x: 324.7207, y: 82.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1275305465
 MonoBehaviour:
@@ -15976,7 +16112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.59607846, b: 0.6901961, a: 1}
+  m_Color: {r: 1, g: 0.7528302, b: 0.7528302, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16619,7 +16755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16627,8 +16763,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -17588,7 +17724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 143.25974, y: 25.782013}
+  m_AnchoredPosition: {x: 143.25974, y: 19.781998}
   m_SizeDelta: {x: 835.797, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417666761
@@ -17604,7 +17740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17612,8 +17748,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -17830,7 +17966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17838,8 +17974,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -18624,7 +18760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 642, y: -318}
+  m_AnchoredPosition: {x: 710, y: -330}
   m_SizeDelta: {x: 974.8638, y: 256.04004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545057937
@@ -18647,7 +18783,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QuizTime...
+  m_text: Quiz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
   m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
@@ -18657,8 +18793,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280228967
-  m_fontColor: {r: 0.4039216, g: 0.10980393, b: 0.121568635, a: 1}
+    rgba: 4287921905
+  m_fontColor: {r: 0.9450981, g: 0.49411768, b: 0.5803922, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -18760,7 +18896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -480.7493, y: -182.35439}
+  m_AnchoredPosition: {x: -483.99988, y: -214.9515}
   m_SizeDelta: {x: 114.9873, y: 97.1233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560592416
@@ -19947,8 +20083,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -20164,8 +20300,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Question: What are the 3 types of tissue growth associated with endometriosis?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 1499acfed277c8a4e8190ed7d24912af, type: 2}
+  m_sharedMaterial: {fileID: 2246777675597995005, guid: 1499acfed277c8a4e8190ed7d24912af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -20190,8 +20326,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20833,7 +20969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20841,8 +20977,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -20997,8 +21133,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -21665,8 +21801,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21774,8 +21910,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -22843,8 +22979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -601.0842, y: 153.90094}
-  m_SizeDelta: {x: 419.2528, y: 86.124}
+  m_AnchoredPosition: {x: 48.000008, y: 174.69278}
+  m_SizeDelta: {x: 330.9015, y: 79.4174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951694835
 MonoBehaviour:
@@ -22928,7 +23064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8509804, g: 0.59607846, b: 0.6901961, a: 1}
+  m_Color: {r: 0.9450981, g: 0.49411768, b: 0.5803922, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -23003,7 +23139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -23011,8 +23147,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -24593,7 +24729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 72, y: 31.348003}
+  m_AnchoredPosition: {x: 72, y: 25.347988}
   m_SizeDelta: {x: 466.0504, y: 191.302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2077257077
@@ -24609,7 +24745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -24617,8 +24753,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -24688,7 +24824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -24696,8 +24832,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -24776,8 +24912,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -25054,7 +25190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -25062,8 +25198,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -25133,7 +25269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.016443197, b: 0.16226411, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -25141,8 +25277,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: d40f0e5d06c8c274fa5307aa02dd9e00, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2

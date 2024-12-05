@@ -597,8 +597,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Endometriomas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: a772adcea2f365643ab947acfc25904a, type: 2}
+  m_sharedMaterial: {fileID: 5103944699739558207, guid: a772adcea2f365643ab947acfc25904a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -732,8 +732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Anatomy
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1221,8 +1221,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2096,8 +2096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -238, y: 90}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: -162.90234, y: 90}
+  m_SizeDelta: {x: 57.8391, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949578788
 MonoBehaviour:
@@ -2964,8 +2964,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lesions
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: a772adcea2f365643ab947acfc25904a, type: 2}
+  m_sharedMaterial: {fileID: 5103944699739558207, guid: a772adcea2f365643ab947acfc25904a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3289,8 +3289,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Next: Quiz'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: 5b331ce8b184a2549b0d6e6fd07b4078, type: 2}
+  m_sharedMaterial: {fileID: -7199416509012243254, guid: 5b331ce8b184a2549b0d6e6fd07b4078,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3679,8 +3679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 248, y: 153}
-  m_SizeDelta: {x: 146.33331, y: 37.2354}
+  m_AnchoredPosition: {x: 248.99994, y: 152.4126}
+  m_SizeDelta: {x: 122.3764, y: 37.2354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337854410
 MonoBehaviour:
@@ -4326,8 +4326,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 248.00006, y: 17.587372}
-  m_SizeDelta: {x: 146.33331, y: 37.2354}
+  m_AnchoredPosition: {x: 249, y: 17}
+  m_SizeDelta: {x: 122.3764, y: 37.2354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629756155
 MonoBehaviour:
@@ -4644,7 +4644,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -118.86548, z: 0, w: 0}
+  m_margin: {x: 0, y: -118.86548, z: 0, w: 187.25183}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4774,8 +4774,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 248, y: -133.93954}
-  m_SizeDelta: {x: 146.33331, y: 37.2354}
+  m_AnchoredPosition: {x: 248.99994, y: -134.52695}
+  m_SizeDelta: {x: 122.3764, y: 37.2354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734625866
 MonoBehaviour:
@@ -5005,8 +5005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 246, y: 104}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 221.25897, y: 104}
+  m_SizeDelta: {x: 92.8155, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741772935
 MonoBehaviour:
@@ -5358,8 +5358,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 246, y: 211}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 221.25897, y: 211}
+  m_SizeDelta: {x: 92.8155, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848288763
 MonoBehaviour:
@@ -5860,8 +5860,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Adhesions
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d484d6a3f5c61d45ab0aa289384ca92, type: 2}
-  m_sharedMaterial: {fileID: 7979461846434598698, guid: 9d484d6a3f5c61d45ab0aa289384ca92,
+  m_fontAsset: {fileID: 11400000, guid: a772adcea2f365643ab947acfc25904a, type: 2}
+  m_sharedMaterial: {fileID: 5103944699739558207, guid: a772adcea2f365643ab947acfc25904a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
