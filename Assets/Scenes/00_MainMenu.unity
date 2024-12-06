@@ -2335,7 +2335,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Endometriosis is a chronic condition that can affect those assigned female
-    at birth. There is currently no cure, and individiuals with this condition experience
+    at birth. There is currently no cure, and individuals with this condition experience
     higih levels of pain. \n\nHistorically, as womens' health was not taken seriously
     or seen as important, there is a huge gap in research. Our app aims to help you
     learn a bit more about this condition and why it is important!\n\nWe hope you
@@ -7066,7 +7066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.94509804, g: 0.49411765, b: 0.5803922, a: 0.09803922}
+  m_Color: {r: 0.94509804, g: 0.49411765, b: 0.5803922, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
