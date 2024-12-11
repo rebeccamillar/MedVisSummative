@@ -19,14 +19,13 @@ public class ActivateLeftEndoAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(animator.Get)
     }
 
     public void StartAnimation()
     {
-        //animator.Play("ActivateAnimation", -1, 0.0f);
         animator.SetBool("ActivateAnimation", true);
-        //animator.SetTrigger(triggerName);
+        animator.SetTrigger(triggerName);
     }
 
 
