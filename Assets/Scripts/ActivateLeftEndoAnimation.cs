@@ -19,14 +19,32 @@ public class ActivateLeftEndoAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(animator.Get)
+
     }
 
+    private bool state = false;
     public void StartAnimation()
     {
-        animator.SetBool("ActivateAnimation", true);
-        animator.SetTrigger(triggerName);
+        state = !state;
+        //! means not equal to the declared state so if state = false, !state = true
+        animator.SetBool("ActivateAnimation", state);
+        if (state == false)
+        {
+            StartCoroutine("WaitAndRelaunch");
+        }
+
     }
+    
+
+    IEnumerator WaitAndRelaunch()
+    {
+        // suspend execution for 1 second
+        yield return new WaitForSeconds(1);
+        state = !state;
+        animator.SetBool("ActivateAnimation", state);
+    }
+
+
 
 
 }
