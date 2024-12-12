@@ -22,9 +22,21 @@ public class ActivateRightEndoAnimation : MonoBehaviour
         
     }
 
+    private bool state = false;
     public void StartAnimation()
     {
-        animator.SetBool("ActivateAnimation", true);
-        //animator.SetTrigger(triggerName);
+        state = !state;
+        animator.SetBool("ActivateAnimation", state);
+        if (state == false)
+        {
+            StartCoroutine("WaitAndReLaunch");
+        }
+    }
+
+    IEnumerator WaitAndReLaunch()
+    {
+        yield return new WaitForSeconds(1);
+        state = !state;
+        animator.SetBool("ActivateAnimation", state);
     }
 }

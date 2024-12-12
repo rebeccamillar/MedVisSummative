@@ -20,8 +20,21 @@ public class ActivateLesionAnimation : MonoBehaviour
         
     }
 
+    private bool state = false;
     public void StartAnimation()
     {
-        animator.SetBool("ActivateAnimation", true);
+        state = !state;
+        animator.SetBool("ActivateAnimation", state);
+        if (state == false)
+        {
+            StartCoroutine("WaitAndRelaunch");
+        }
+    }
+
+    IEnumerator WaitAndRelaunch()
+    {
+        yield return new WaitForSeconds(1);
+        state = !state;
+        animator.SetBool("ActivateAnimation", state);
     }
 }
