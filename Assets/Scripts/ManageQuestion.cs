@@ -24,6 +24,7 @@ public class ManageQuestion : MonoBehaviour
 
     [SerializeField]
     private GameObject questionObj;
+    
 
 
     // Start is called before the first frame update
@@ -37,6 +38,21 @@ public class ManageQuestion : MonoBehaviour
     {
         
     }
+
+    void OnDisable()
+    {
+        Debug.Log("Disable Script");
+        for (int i = 0; i < myToggleGroup.transform.childCount; i++)
+        {
+            myToggleGroup.transform.GetChild(i).GetComponent<Toggle>().interactable = true;
+        }
+       
+        
+
+        positiveFeedback.SetActive(false);
+        negativeFeedback.SetActive(false);
+    }
+
 
     public void OnClickConfirm()
     {
@@ -67,6 +83,8 @@ public class ManageQuestion : MonoBehaviour
         {
             questionObj.transform.GetChild(i).GetComponent<Toggle>().interactable = false;
         }
+
+         myToggleGroup.SetAllTogglesOff();
     }
 
 }

@@ -7,6 +7,8 @@ public class ManageQuiz : MonoBehaviour
 {
 
     public List<GameObject> questionList;
+    [SerializeField]
+    private List<GameObject> backupList;
     public int maxQuestionIndex = 5;
     public int myQuestionIndex = 0;
     [SerializeField]
@@ -14,14 +16,47 @@ public class ManageQuiz : MonoBehaviour
     [SerializeField]
     private GameObject scoreIndicator;
 
+    private string initScoreText;
+
     public int score = 0;
 
     // Start is called before the first frame update
+    void OnEnable()
+    {
+      
+    }
+    
     void Start()
+    {
+        for (int i = 0; i < questionList.Count; i++)
+        {
+            backupList.Add(questionList[i]);
+        }
+
+        initScoreText = scoreIndicator.GetComponent<TextMeshProUGUI>().text;
+    }
+
+    public void OnStartBt()
     {
         OnClickNext();
     }
+    public void OnStartAgain()
+    {
+        //Clear List
+        questionList.Clear();
 
+        //Repopulate the list
+        for (int i = 0; i < backupList.Count; i++)
+        {
+            questionList.Add(backupList[i]);
+        }
+
+        //reset the indicators
+        myQuestionIndex = 0;
+        score = 0;
+        scoreIndicator.GetComponent<TextMeshProUGUI>().text = initScoreText;
+
+    }
 
     public void OnClickNext()
     {  
@@ -36,16 +71,15 @@ public class ManageQuiz : MonoBehaviour
             //increase myQuestion Index value
             myQuestionIndex +=1;
         }
+        else
+        {
+            //Show score panel
+            scorePanel.SetActive(true);
 
-            else
-            {
-                //Show score panel
-                scorePanel.SetActive(true);
+            scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
 
-                scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
-
-                Debug.Log("End");
-            }
+            Debug.Log("End");
+        }
 
     }
 }
